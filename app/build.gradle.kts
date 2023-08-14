@@ -12,8 +12,8 @@ android {
         applicationId = "me.zhenxin.thisreallylite"
         minSdk = 21
         targetSdk = 33
-        versionCode = 2303070
-        versionName = "1.2.0"
+        versionCode = 20230814
+        versionName = "1.3.0"
     }
 
     buildTypes {
@@ -38,9 +38,9 @@ android {
 }
 
 dependencies {
-    implementation("com.highcapable.yukihookapi:api:1.1.8")
+    implementation("com.highcapable.yukihookapi:api:1.1.11")
     compileOnly("de.robv.android.xposed:api:82")
-    ksp("com.highcapable.yukihookapi:ksp-xposed:1.1.8")
+    ksp("com.highcapable.yukihookapi:ksp-xposed:1.1.11")
 
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")

@@ -25,6 +25,10 @@
             app:iconSpaceReserved="false"
             app:key="remove_info_ad"
             app:title="@string/remove_info_ad_title" />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="remove_info_ad"
+            app:title="@string/force_dark_mode" />
 
     </PreferenceCategory>
 
@@ -38,13 +42,23 @@
         <PreferenceScreen
             app:iconSpaceReserved="false"
             app:key="github"
-            app:summary="RealHeart/ThisReallyLite"
+            app:summary="wangyuan0217/ThisReallyLite"
+            app:title="GitHub">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/wangyuan0217/ThisReallyLite" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            app:iconSpaceReserved="false"
+            app:key="github"
+            app:summary="修改于RealHeart/ThisReallyLite(暂停维护)"
             app:title="GitHub">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://github.com/RealHeart/ThisReallyLite" />
         </PreferenceScreen>
-
+       
     </PreferenceCategory>
 
 </PreferenceScreen>

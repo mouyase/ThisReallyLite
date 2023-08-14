@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">这真轻享</string>
+    <string name="app_name">微博轻享</string>
     <string name="xposed_description">微博轻享版/极速版 去广告</string>
 
     <!-- 信息 -->
@@ -12,6 +12,7 @@
     <string name="settings_header">功能</string>
     <string name="remove_splash_ad_title">移除开屏广告</string>
     <string name="remove_info_ad_title">移除信息流广告</string>
+    <string name="force_dark_mode">强制暗黑模式</string>
 
     <!-- 关于 -->
     <string name="about_header">关于</string>
