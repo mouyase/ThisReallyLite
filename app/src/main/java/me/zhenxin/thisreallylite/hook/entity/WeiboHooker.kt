@@ -185,26 +185,26 @@ object WeiboHooker : YukiBaseHooker() {
         }
 
         //强制暗黑模式
-        "com.skin.loader.SkinManager".hook {
-            injectMember {
-                method {
-                    name = "isDarkMode"
-                    emptyParam()
-                }
-                afterHook {
-                    result = true
-                }
-            }
-            injectMember {
-                method {
-                    name = "getDarkModeStatus"
-                    param(ContextClass)
-                }
-                afterHook {
-                    result = true
-                }
-            }
-        }
+//        "com.skin.loader.SkinManager".hook {
+//            injectMember {
+//                method {
+//                    name = "isDarkMode"
+//                    emptyParam()
+//                }
+//                afterHook {
+//                    result = true
+//                }
+//            }
+//            injectMember {
+//                method {
+//                    name = "getDarkModeStatus"
+//                    param(ContextClass)
+//                }
+//                afterHook {
+//                    result = true
+//                }
+//            }
+//        }
 
         //隐藏首页右下角加号
         "com.weico.international.ui.maintab.MainTabFragment".hook {
@@ -233,6 +233,5 @@ object WeiboHooker : YukiBaseHooker() {
                 }
             }
         }
-
     }
 }
